@@ -9,7 +9,7 @@ const reducer = (state = initialState, action) => {
         case actionTypes.ADD_PERSON:
             const newPerson = {
                 id: Math.random(),
-                name: 'Your name',
+                name: 'Person\'s name',
                 age: Math.floor(Math.random() * 40)
             };
             return {
